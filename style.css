@@ -8,7 +8,8 @@ body{
     height:100vh;
     width:100%;
 
-    background-image: url('./images/donate.png.jfif');
+    background-image: url('./images/donate2.jfif');
+   
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,11 +25,11 @@ body{
     text-align: center;
 }
 .content h1{
-    font:80px;
+    font:100px;
     color: white;
 }
 .content p{
-    font:30px;
+    font:80px;
     color:white;
 }
 .btn{
@@ -41,3 +42,60 @@ body{
     font-size: 18px;
     background-color: red;
 }
+
+.container1{
+    width:40%;
+    padding: 2%;
+    background: #ddd;
+    margin: 40px auto ;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+    height: 50px;
+    background: rgb(87, 85, 85);
+    float: left;
+    margin: 0px 10px;
+    transition: 1s;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.box:hover{
+    transform: scale(1.1);
+    background: #2e2a27;
+    box-shadow: 1px 1px 1px rgb(29, 27, 27);
+    z-index: 1;
+
+
+}
+
+.part2 h1{
+    font-size:70 ;
+    color: black;
+    
+}
+.part2 p{
+    font-size: 40;
+    color:black;
+    
+}
+.content2 h5{
+    color:rgb(142, 89, 89);
+    font-size: 20;
+}
+.btn1{
+    border:none;
+    outline:none;
+    padding:15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    background-color: red;   
+}
+
+
+
+
