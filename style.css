@@ -35,13 +35,13 @@ body{
 .btn{
     border:none;
     outline:none;
-    padding:15px;
-    margin-top: 100px;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
     color:white;
     font-size: 18px;
-    background-color: red;
-}
+    background-color: rgb(235, 15, 15);}
 
 .container1{
     width:40%;
@@ -72,18 +72,23 @@ body{
 }
 
 .part2 h1{
-    font-size:70 ;
+    font-size:90;
     color: black;
     
 }
 .part2 p{
-    font-size: 40;
+    font-size:70;
     color:black;
     
 }
 .content2 h5{
     color:rgb(142, 89, 89);
     font-size: 20;
+}
+.content2 hr{
+    width:50%;
+    color:#4d4b49
+    
 }
 .btn1{
     border:none;
@@ -93,41 +98,216 @@ body{
     border-radius: 5px;
     color:white;
     font-size: 18px;
-    background-color: red;   
+    background-color: red; 
+
 }
 
 .donate{
     text-align: center;
 }
 
-
-.cntnt{
-    width:95%;
-    over-flow: hidden;
-    background: white;
-    margin:20px auto;
-    padding:20px;
+.title h1{
+    font:90px;
+    color:black;
 }
-
-.cntnt ul li{
-    list-style: none;
-    float:left;
-    width:20%;
-    height:300px;
-    margin:40px 40px 0px 55px;
-    box-sizing: border-box;
-    border:20px;
-    box-shadow: #2e2a27;
-
+.title p{
+    font:80px;
+    color:black;
 }
-.cntnt ul li.title1{
+.title2 {
+    min-height: 10vh;
+    width:50%;
+    background-color: rgb(236, 190, 195);
+display:flex;
+margin: 20px 80px 20px 100px;
+justify-content: center;
+align-items: center;
+}
+label{
+    position: relative;
+}
+input{
+    border:none;
+    padding:10px;
+}
+.button{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    border:none;
+    padding:10px;
+    background-color: red;
+    color:white;
+}
+ h2{
+color:rgb(236, 46, 84);
+font:40px;
+}
+h6{
+    color:white;
+    font:30px;
+}   
+
+.title3{
+    background-color: black;
    
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    background: rgb(238, 183, 183);
+    width:100%;
+}
+.part3{
     text-align: center;
+    justify-content: center;
+    margin:40px 0px 0px 0px;
+}
+.title5{
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+}
 
+.card1{
+    width:350px;
+    height: 250px;
+    border: 1px solid rgb(108, 105, 105);
+    background-color: rgb(144, 194, 214);
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding:20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: .8ms;
 
+}
+.card1:hover{
+border: 1px solid red;
+margin-top: -20px;
+transition: .8ms;
+}
+.card1 h1{
+    color: black;
+    font:40;
+}
+.section{
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.food{
+    width:50px; 
+}
+.card des1 h1{
+    font-size: 50px;
+}
+.summery{
+    font-size: 25px;
+}
+.card2{
+    width:350px;
+    height: 250px;
+    border: 1px solid rgb(108, 105, 105);
+    background-color: rgb(204, 241, 147);
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding:20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: .8ms;
+
+}
+.card2:hover{
+border: 1px solid red;
+margin-top: -20px;
+transition: .8ms;
+}
+.card2 h1{
+    color: black;
+    font:40;
+}
+
+.home{
+    width:50px; 
+}
+.card des2 h1{
+    font-size: 50px;
+}
+.summery2{
+    font-size: 25px;
+}
+.card3{
+    width:350px;
+    height: 250px;
+    border: 1px solid rgb(108, 105, 105);
+    background-color: rgb(235, 168, 179);
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding:20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: .8ms;
+
+}
+.card3:hover{
+border: 1px solid red;
+margin-top: -20px;
+transition: .8ms;
+}
+.card3 h1{
+    color: black;
+    font:40;
+}
+
+.health{
+    width:50px; 
+}
+.card des3 h1{
+    font-size: 50px;
+}
+.summery3{
+    font-size: 25px;
+}
+
+.flexible-container{
+    display:flex;
+    margin-bottom: 30px;
+    color:black;
+}
+.half-width{
+    width:50%;
+    padding-left: 2%;
+    color:black;
+}
+.half-width img{
+    width: 250px;
+    height: 250px;
+}
+.button1{
+    text-decoration: none;
+    background-color: rgb(235, 165, 69)
+    ;
+    padding: 10px 25px;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-banner{
+    background-position: left;
+    text-align: inherit;
+    padding: 5%;
+    margin: auto;
+
+}
+.dream-big{
+    background-position: right;
+    text-align: inherit;
+    text-decoration: none;
+    padding: 5%;
+    margin: auto;
+}
+.half-width img{
+float:right;
+margin:left;
+width: 250px;
+    height: 250px;
 }
 
